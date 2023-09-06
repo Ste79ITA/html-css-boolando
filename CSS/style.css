@@ -20,18 +20,45 @@ img {
   max-width: 100%;
 }
 
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(237, 114, 46);
+  align-items: center;
+}
+
+nav ul,
+header div ul {
+  padding: 20px;
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a,
+header div ul li {
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+}
+
+header img {
+  width: auto;
+  height: 30px;
+}
 /* FIGCAPTIONS */
 
 figcaption ul {
   list-style: none;
 }
 
-ul li:nth-child(odd) {
+figcaption ul li:nth-child(odd) {
   color: grey;
   font-size: 13px;
 }
 
-ul li:last-child :nth-child(odd) {
+figcaption ul li:last-child :nth-child(odd) {
   color: red;
 }
 
@@ -53,12 +80,6 @@ ul li:last-child :nth-child(odd) {
 .card {
   position: relative;
   flex-basis: calc((100% - 80px) / 3);
-}
-
-.debug header {
-  background-color: orange;
-  min-height: 50px;
-  width: 100vw;
 }
 
 .debug footer {
