@@ -114,6 +114,11 @@ footer ul li a {
   color: white;
   font-size: 12px;
 }
+
+footer img {
+  width: auto;
+  height: 20px;
+}
 /* LABELS */
 
 .discount {
