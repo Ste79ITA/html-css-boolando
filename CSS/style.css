@@ -47,6 +47,15 @@ img {
   width: 100vw;
 }
 
+.second-img {
+  position: absolute;
+  z-index: -1;
+}
+
+.card:hover .second-img {
+  z-index: 0;
+}
+
 /* HEADER */
 
 header {
@@ -75,6 +84,31 @@ header img {
   height: 30px;
 }
 
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  gap: 800px;
+  padding: 20px 0;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer ul li {
+  padding-right: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
 /* LABELS */
 
 .discount {
