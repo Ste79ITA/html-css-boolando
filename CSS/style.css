@@ -118,11 +118,14 @@ footer img {
 /* LABELS */
 
 .label {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  bottom: 110px;
-  background-color: red;
+  left: 0px;
+  bottom: 15%;
   color: white;
+}
+.discount {
+  background-color: red;
   padding: 3px 5px;
 }
 
@@ -130,18 +133,18 @@ footer img {
   background-color: green;
 }
 
-/* FIGCAPTIONS */
+/* DESCRIPTIONS */
 
-figcaption ul {
+.card ul {
   list-style: none;
 }
 
-figcaption ul li:nth-child(odd) {
+.card ul li:nth-child(odd) {
   color: grey;
   font-size: 13px;
 }
 
-figcaption ul li:last-child :nth-child(odd) {
+.card ul li:last-child :nth-child(odd) {
   color: red;
 }
 
