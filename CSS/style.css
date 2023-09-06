@@ -20,6 +20,23 @@ img {
   max-width: 100%;
 }
 
+/* FIGCAPTIONS */
+
+figcaption ul {
+  list-style: none;
+}
+
+ul li:nth-child(odd) {
+  color: grey;
+  font-size: 13px;
+}
+
+ul li:last-child :nth-child(odd) {
+  color: red;
+}
+
+/* CLASSES */
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -50,6 +67,8 @@ img {
   min-height: 50px;
   width: 100vw;
 }
+
+/* HEARTS */
 
 .hearts {
   position: absolute;
