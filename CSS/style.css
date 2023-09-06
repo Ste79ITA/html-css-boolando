@@ -40,13 +40,6 @@ img {
   flex-basis: calc((100% - 80px) / 3);
 }
 
-.debug footer {
-  background-color: black;
-  color: white;
-  min-height: 50px;
-  width: 100vw;
-}
-
 .second-img {
   position: absolute;
   z-index: -1;
@@ -97,6 +90,8 @@ footer {
   align-content: center;
   gap: 800px;
   padding: 20px 0;
+  background-color: black;
+  color: white;
 }
 
 footer ul {
@@ -119,9 +114,10 @@ footer img {
   width: auto;
   height: 20px;
 }
+
 /* LABELS */
 
-.discount {
+.label {
   position: relative;
   display: inline-block;
   bottom: 110px;
@@ -131,12 +127,7 @@ footer img {
 }
 
 .green {
-  position: relative;
-  display: inline-block;
-  bottom: 110px;
   background-color: green;
-  color: white;
-  padding: 3px 5px;
 }
 
 /* FIGCAPTIONS */
