@@ -20,6 +20,33 @@ img {
   max-width: 100%;
 }
 
+/* CLASSES */
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 20px;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  flex-basis: calc((100% - 80px) / 3);
+}
+
+.debug footer {
+  background-color: black;
+  color: white;
+  min-height: 50px;
+  width: 100vw;
+}
+
 /* HEADER */
 
 header {
@@ -47,6 +74,27 @@ header img {
   width: auto;
   height: 30px;
 }
+
+/* LABELS */
+
+.discount {
+  position: relative;
+  display: inline-block;
+  bottom: 110px;
+  background-color: red;
+  color: white;
+  padding: 3px 5px;
+}
+
+.green {
+  position: relative;
+  display: inline-block;
+  bottom: 110px;
+  background-color: green;
+  color: white;
+  padding: 3px 5px;
+}
+
 /* FIGCAPTIONS */
 
 figcaption ul {
@@ -60,33 +108,6 @@ figcaption ul li:nth-child(odd) {
 
 figcaption ul li:last-child :nth-child(odd) {
   color: red;
-}
-
-/* CLASSES */
-
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px 20px;
-  justify-content: center;
-}
-
-.card {
-  position: relative;
-  flex-basis: calc((100% - 80px) / 3);
-}
-
-.debug footer {
-  background-color: black;
-  color: white;
-  min-height: 50px;
-  width: 100vw;
 }
 
 /* HEARTS */
