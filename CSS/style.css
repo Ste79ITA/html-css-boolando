@@ -34,6 +34,7 @@ img {
 }
 
 .card {
+  position: relative;
   flex-basis: calc((100% - 80px) / 3);
 }
 
@@ -48,4 +49,18 @@ img {
   color: white;
   min-height: 50px;
   width: 100vw;
+}
+
+.hearts {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 13px;
+  top: 8px;
+  right: 0px;
+  font-size: 15px;
+}
+
+.hearts:hover {
+  color: red;
 }
